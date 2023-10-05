@@ -1,0 +1,210 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+h1,h2{
+color:#4B5154 !important;
+font-family: 'Bai Jamjuree', sans-serif;
+
+}
+p{
+    color: #B6BABD;
+    font-family: 'Bai Jamjuree', sans-serif;
+   
+
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap');
+
+header{
+    background-image: url(./images/bg-header-desktop.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    height: 400px;
+}
+.heading1{
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-size: 38px;
+    margin-top: 25px;
+    color:#4B5154
+    
+
+}
+.logo{
+    margin-top: 60px;
+}
+.firstp{
+    color:#B6BABD;
+    width: 520px;
+    margin: auto;
+    padding-top: 10px;
+    font-size: 18px;
+}
+.buttons{
+    margin-top: 30px;
+}
+.ios{
+    color:white;
+    background-color: #22BEA6;
+    border:none;
+    padding: 10px 25px;
+    border-radius: 20px;
+    cursor: pointer;
+    margin:10px
+}
+.mac{
+    color:white;
+    background-color:#6273FF;
+    border:none;
+    padding: 10px 25px;
+    border-radius: 20px;
+    cursor: pointer;
+
+}
+.mac:hover{
+    opacity: 0.7;
+}
+.ios:hover{
+    opacity: 0.7;
+}
+.secondheading{
+    text-align: center;
+}
+.secondheading > p{
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-size: 25px;
+    color:#4B5154;
+    margin-top: 40px;
+}
+.secondp{
+    color:#B6BABD;
+    width: 520px;
+    margin: auto;
+    padding-top: 10px;
+    font-size: 18px;
+}
+.middle{
+    margin-top: 60px;
+    display: flex;
+    flex-wrap: wrap;
+    gap:140px
+}
+.desktopside{
+    padding-left: 2rem;
+    margin-top: 2rem;
+    width: 400px;
+}
+.desktopside  p{
+    font-family: 'Bai Jamjuree', sans-serif;
+    color:#B6BABD;
+}
+.desktopside h2{
+    color:#4B5154
+
+}
+.sidep{
+    border-left: 2px dotted red;
+    padding-left: 4px;
+    
+}
+.desktopside h2{
+    margin-bottom: 8px;
+    margin-top: 8px;
+}
+.anothertitle{
+    margin-bottom: 4rem;
+    
+}
+.secondarea img{
+    margin-top: 50px;
+}
+.secondarea{
+    margin-top: 3rem;
+    text-align: center;
+}
+.secondarea h2{
+    margin-bottom: 2rem;
+}
+.third{
+    display: flex;
+    margin-top: 70px;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-bottom: 30px;
+    
+}
+.third p{
+    max-width: 320px;
+   text-align: center;
+    
+ 
+}
+.third img{
+    width: 40px;
+    
+ } 
+ .third img:hover{
+    transform: scale(1.2);
+    color:red
+    
+ }     
+ .neo3 img{
+    width: 55px !important;
+ }
+
+.neo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap:10px
+}
+.third h2{
+    font-size: 18px;
+}
+.nwo p{
+   justify-content: baseline
+}
+.fourarea img{
+    width: 120px;
+    margin: 30px;
+
+}
+.fourarea{
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 70px;
+}
+.fivearea{
+    text-align: center;
+}
+
+footer{
+    background-color: #F5F6F8;
+    height: 170px;
+    margin-top: 100px;
+    
+}
+footer img{
+    width: 50px;
+    height: 50px;
+}
+.footerdiv{
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.social img{
+    width: 20px;
+    height: 20px;
+    margin:9px;
+    cursor: pointer;
+}
+.footerdiv p{
+    margin-bottom: 15px;
+}
